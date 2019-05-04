@@ -18,7 +18,7 @@ app.use("/api/people", people);
 
 // DB Config:
 const CONNECTION_URL = require("./server/config/keys_dev").mongoURI
-const DATABASE_NAME = "traversyrestapi";
+const DATABASE_NAME = "restapi";
 const COLLECTION_NAME = "people";
 
 // Mongo atlas set up:
